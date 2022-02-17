@@ -19,33 +19,32 @@
 
 1. 安装Python:
 
- •	 若您初次接触Python语言，请参阅以下指南：
+  •	 若您初次接触Python语言，请参阅以下指南：
  https://wiki.python.org/moin/BeginnersGuideChinese
  
- •	 Windows系统用户，请从以下链接下载Python 3 发行版：
+  •	 Windows系统用户，请从以下链接下载Python 3 发行版：
  https://www.python.org/downloads/windows/
  
- •	 本算法仅支持Python 3
+  •	 本算法仅支持Python 3
  
 2. 安装Anaconda Python 发行版：
 
- •	 参阅此安装指南：https://docs.continuum.io/anaconda/install/
+  •	 参阅此安装指南：https://docs.continuum.io/anaconda/install/
  
- •	 Windows用户可参阅此详细指南：https://docs.continuum.io/anaconda/install/windows 
+  •	 Windows用户可参阅此详细指南：https://docs.continuum.io/anaconda/install/windows 
  
- •	 推荐安装最新版的Anaconda
+  •	 推荐安装最新版的Anaconda
  
 3. 相关依赖库：
+
  • 本算法使用了一些第三方的开源库，在运行前需要将它们添加至您的conda环境中，包括但不限于：
  
-      
-
-
-下载链接：https://github.com/The-Zhou-Lab/YieldQuant-Mobile/releases/latest
-   
-## 运行"YieldQuant-Mobile" (YQ-M)
-
-在使用YQ-M之前，请参阅此存储库中的YieldQuant-Mobile用户指南.pdf文件。
+  numpy == 1.20.3
+  pandas == 1.3.3
+  pytorch == 1.9.1
+  scikit-image == 0.18.1
+  scipy == 1.7.1
+  
 
 ## 知识产权声明
 <b>YQ-M</b>软件由周济实验室（中）研发，该软件所有知识产权归南京农业大学周济实验室所有，中华人民共和国国家版权局已授予计算机软件著作权登记证书，登记号：2021SR1296887。<b>YQ-M</b>软件的任何副本可自由供科研使用，软件相关的一切所有权和知识产权均归周济实验室拥有，不得用于任何商业途径。商业用户不得对<b>YQ-M</b>软件进行反向工程，反向编译或反汇编，违者属于侵权行为，并自行承担有此引起的不利后果。科研工作者如需修改<b>YQ-M</b>软件，可联系周济实验室（中）对软件功能、性能、界面等进行必要的修改，但不得去除周济实验室（中）或南京农业大学的版本标示; 未经周济实验室（中）授权许可，不得向任何第三方提供修改后的软件。 　　
