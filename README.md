@@ -39,11 +39,11 @@
 
  • 本算法使用了一些第三方的开源库，在运行前需要将它们添加至您的conda环境中，包括但不限于：
  
-  numpy == 1.20.3
-  pandas == 1.3.3
-  pytorch == 1.9.1
-  scikit-image == 0.18.1
-  scipy == 1.7.1
+    numpy == 1.20.3
+    pandas == 1.3.3
+    pytorch == 1.9.1
+    scikit-image == 0.18.1
+    scipy == 1.7.1
   
 
 ## 知识产权声明
